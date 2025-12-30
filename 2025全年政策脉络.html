@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025年算力及能源领域政策观察总结</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/v4-shims.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e40af',
+                        secondary: '#3b82f6',
+                        accent: '#60a5fa',
+                        neutral: '#f3f4f6',
+                        'neutral-dark': '#e5e7eb',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                },
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .card-shadow {
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            }
+            .hover-lift {
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+            }
+            .hover-lift:hover {
+                transform: translateY(-4px);
+                box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+            }
+            .timeline-line {
+                background: linear-gradient(to bottom, #3b82f6 0%, #60a5fa 100%);
+            }
+            .section-divider {
+                background: linear-gradient(90deg, transparent, #3b82f6, transparent);
+                height: 2px;
+                width: 100%;
+                margin: 2rem 0;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+    <!-- 页面头部 -->
+    <header class="bg-gradient-to-r from-primary to-secondary text-white py-12 px-6">
+        <div class="max-w-7xl mx-auto">
+            <h1 class="text-[clamp(2rem,5vw,3.5rem)] font-bold mb-4">2025年算力及能源领域政策观察总结</h1>
+            <p class="text-[clamp(1rem,2vw,1.25rem)] opacity-90 max-w-3xl">
+                全年政策围绕"规模扩容与质量提升并进、绿色转型与规范治理同步"的核心逻辑展开，形成"顶层定向—地方落地—动态优化"的全链条治理体系
+            </p>
+        </div>
+    </header>
+
+    <!-- 主要内容 -->
+    <main class="max-w-7xl mx-auto px-6 py-12">
+        <!-- 政策演进概览 -->
+        <div class="mb-12">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">2025年政策演进脉络</h2>
+            
+            <!-- 核心趋势卡片 -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+                <div class="bg-white p-6 rounded-xl card-shadow hover-lift">
+                    <div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                        <i class="fa fa-line-chart text-primary text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">从规模到质量</h3>
+                    <p class="text-gray-600 text-sm">政策重心从"狂飙突进"转向精细化发展，算力增速回归理性</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl card-shadow hover-lift">
+                    <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fa fa-leaf text-green-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">绿色转型深化</h3>
+                    <p class="text-gray-600 text-sm">绿电直连、新型电力系统成为贯穿全年的核心政策主线</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl card-shadow hover-lift">
+                    <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fa fa-cogs text-purple-600 text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">算电深度融合</h3>
+                    <p class="text-gray-600 text-sm">算力设施与能源系统协同规划，推动新能源就地消纳</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl card-shadow hover-lift">
+                    <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fa fa-balance-scale text-orange-500 text-xl"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">监管体系完善</h3>
+                    <p class="text-gray-600 text-sm">从柔性引导转向刚性约束，碳管控进入总量控制新阶段</p>
+                </div>
+            </div>
+
+            <!-- 时间线 -->
+            <div class="relative">
+                <!-- 时间线竖线 -->
+                <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 timeline-line rounded-full"></div>
+                
+                <!-- 时间点卡片 -->
+                <div class="space-y-16">
+                    <!-- 1-2月 -->
+                    <div class="flex items-center">
+                        <div class="w-1/2 pr-8 text-right">
+                            <div class="bg-white p-6 rounded-lg card-shadow hover-lift">
+                                <div class="flex items-center justify-end mb-3">
+                                    <span class="bg-primary text-white px-3 py-1 rounded-full text-sm font-medium">1-2月</span>
+                                </div>
+                                <h3 class="text-xl font-semibold text-gray-800 mb-2">兼顾"扩规模"与"提质量"</h3>
+                                <p class="text-gray-600">呈现四大显著态势：绿色算力转型、区域算力竞争、AI+行动、数据安全监管</p>
+                            </div>
+                        </div>
+                        <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center z-10">
+                            <i class="fa fa-flag text-white text-xl"></i>
+                        </div>
+                        <div class="w-1/2 pl-8"></div>
+                    </div>
+
+                    <!-- 3-4月 -->
+                    <div class="flex items-center">
+                        <div class="w-1/2 pr-8"></div>
+                        <div class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center z-10">
+                            <i class="fa fa-balance-scale text-white text-xl"></i>
+                        </div>
+                        <div class="w-1/2 pl-8">
+                            <div class="bg-white p-6 rounded-lg card-shadow hover-lift">
+                                <div class="flex items-center mb-3">
+                                    <span class="bg-secondary text-white px-3 py-1 rounded-full text-sm font-medium">3-4月</span>
+                                </div>
+                                <h3 class="text-xl font-semibold text-gray-800 mb-2">"损有余，补不足"</h3>
+                                <p class="text-gray-600">"算力跃进"与"严格标准"并行，多地提出数倍增长目标，同时严控盲目建设</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 5-6月 -->
+                    <div class="flex items-center">
+                        <div class="w-1/2 pr-8 text-right">
+                            <div class="bg-white p-6 rounded-lg card-shadow hover-lift">
+                                <div class="flex items-center justify-end mb-3">
+                                    <span class="bg-accent text-white px-3 py-1 rounded-full text-sm font-medium">5-6月</span>
+                                </div>
+                                <h3 class="text-xl font-semibold text-gray-800 mb-2">质量优于规模</h3>
+                                <p class="text-gray-600">算力规模增速放缓，聚焦高质量发展，绿电直连、新型电力系统成政策热词</p>
+                            </div>
+                        </div>
+                        <div class="w-12 h-12 bg-accent rounded-full flex items-center justify-center z-10">
+                            <i class="fa fa-tachometer text-white text-xl"></i>
+                        </div>
+                        <div class="w-1/2 pl-8"></div>
+                    </div>
+
+                    <!-- 7-8月 -->
+                    <div class="flex items-center">
+                        <div class="w-1/2 pr-8"></div>
+                        <div class="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center z-10">
+                            <i class="fa fa-leaf text-white text-xl"></i>
+                        </div>
+                        <div class="w-1/2 pl-8">
+                            <div class="bg-white p-6 rounded-lg card-shadow hover-lift">
+                                <div class="flex items-center mb-3">
+                                    <span class="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-medium">7-8月</span>
+                                </div>
+                                <h3 class="text-xl font-semibold text-gray-800 mb-2">宽严并济的治理逻辑</h3>
+                                <p class="text-gray-600">能源与碳排放政策体系完善，拓宽绿色能源路径，强化考核约束</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 9-10月 -->
+                    <div class="flex items-center">
+                        <div class="w-1/2 pr-8 text-right">
+                            <div class="bg-white p-6 rounded-lg card-shadow hover-lift">
+                                <div class="flex items-center justify-end mb-3">
+                                    <span class="bg-purple-600 text-white px-3 py-1 rounded-full text-sm font-medium">9-10月</span>
+                                </div>
+                                <h3 class="text-xl font-semibold text-gray-800 mb-2">AI驱动与绿色赋能</h3>
+                                <p class="text-gray-600">双轨并进，重心向能源侧倾斜，多地落地省级节能&碳排审查办法</p>
+                            </div>
+                        </div>
+                        <div class="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center z-10">
+                            <i class="fa fa-bolt text-white text-xl"></i>
+                        </div>
+                        <div class="w-1/2 pl-8"></div>
+                    </div>
+
+                    <!-- 11-12月 -->
+                    <div class="flex items-center">
+                        <div class="w-1/2 pr-8"></div>
+                        <div class="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center z-10">
+                            <i class="fa fa-compass text-white text-xl"></i>
+                        </div>
+                        <div class="w-1/2 pl-8">
+                            <div class="bg-white p-6 rounded-lg card-shadow hover-lift">
+                                <div class="flex items-center mb-3">
+                                    <span class="bg-orange-500 text-white px-3 py-1 rounded-full text-sm font-medium">11-12月</span>
+                                </div>
+                                <h3 class="text-xl font-semibold text-gray-800 mb-2">顶层定向+落地补位</h3>
+                                <p class="text-gray-600">锚定2026年发展方向，数据中心纳入REITs，多地细化绿电直连规则</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 分隔线 -->
+        <div class="section-divider"></div>
+
+        <!-- 详细政策表格 -->
+        <div class="bg-white rounded-xl card-shadow overflow-hidden">
+            <div class="p-6 bg-gradient-to-r from-primary to-secondary text-white">
+                <h2 class="text-2xl font-bold">2025年各双月政策详细总结</h2>
+            </div>
+            <div class="overflow-x-auto">
+                <table class="w-full">
+                    <thead>
+                        <tr class="bg-gray-100">
+                            <th class="px-6 py-4 text-left text-sm font-semibold text-gray-700">时间周期</th>
+                            <th class="px-6 py-4 text-left text-sm font-semibold text-gray-700">政策核心特点</th>
+                            <th class="px-6 py-4 text-left text-sm font-semibold text-gray-700">关键政策内容</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-200">
+                        <tr class="hover:bg-gray-50 transition-colors">
+                            <td class="px-6 py-4 text-sm font-medium text-gray-900">1-2月</td>
+                            <td class="px-6 py-4 text-sm text-gray-700">兼顾"扩规模"与"提质量"，呈现四大显著态势</td>
+                            <td class="px-6 py-4 text-sm text-gray-600">
+                                <ul class="list-disc list-inside space-y-1">
+                                    <li>绿色算力转型向纵深：新型储能、算电协同</li>
+                                    <li>区域算力高地争夺白热化：多地提出"大跃进"式增长目标</li>
+                                    <li>利好数据中心：各地开展"人工智能+"行动</li>
+                                    <li>监管趋严：数据安全要求提升</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-50 transition-colors">
+                            <td class="px-6 py-4 text-sm font-medium text-gray-900">3-4月</td>
+                            <td class="px-6 py-4 text-sm text-gray-700">"损有余，补不足"，"算力跃进"与"严格标准"并行</td>
+                            <td class="px-6 py-4 text-sm text-gray-600">
+                                <ul class="list-disc list-inside space-y-1">
+                                    <li>算力规模狂飙：河南、呼和浩特、上海等多地提出数倍增长目标</li>
+                                    <li>严控盲目建设：窗口指导（审批刹车、统筹管理、国产突围）、算力摸底</li>
+                                    <li>明确新增算力布局与绿电使用比例要求</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-50 transition-colors">
+                            <td class="px-6 py-4 text-sm font-medium text-gray-900">5-6月</td>
+                            <td class="px-6 py-4 text-sm text-gray-700">规模增速放缓，政策导向转向"质量优于规模"</td>
+                            <td class="px-6 py-4 text-sm text-gray-600">
+                                <ul class="list-disc list-inside space-y-1">
+                                    <li>算力规模增速承压：《数字中国建设2025年行动方案》提出年底总规模超300EFLOPS，增速仅7%</li>
+                                    <li>聚焦高质量发展：绿电直连、新型电力系统、算电协同、新型资产证券化成政策热词</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-50 transition-colors">
+                            <td class="px-6 py-4 text-sm font-medium text-gray-900">7-8月</td>
+                            <td class="px-6 py-4 text-sm text-gray-700">能源与碳排放政策体系完善，治理逻辑"宽严并济"</td>
+                            <td class="px-6 py-4 text-sm text-gray-600">
+                                <ul class="list-disc list-inside space-y-1">
+                                    <li>拓宽绿色能源路径：绿电直连、新型电力系统试点、分布式光伏管理规范推进</li>
+                                    <li>强化考核约束：节能审查与碳排放评价深度绑定；全国碳市场建设明确方向，碳管控从"强度控制"转向"总量控制"</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-50 transition-colors">
+                            <td class="px-6 py-4 text-sm font-medium text-gray-900">9-10月</td>
+                            <td class="px-6 py-4 text-sm text-gray-700">"AI驱动"与"绿色赋能"双轨并进，重心向能源侧倾斜</td>
+                            <td class="px-6 py-4 text-sm text-gray-600">
+                                <ul class="list-disc list-inside space-y-1">
+                                    <li>顶层规划锚定方向："十五五"规划建议明确强化算力供给、建设新型能源体系、实施碳双控</li>
+                                    <li>算电融合政策落地：新能源就地消纳价格机制、三年储能行动方案发布</li>
+                                    <li>地方细则跟进：湖南、江苏、安徽等落地省级节能&碳排审查办法，行业审查难度提升</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr class="hover:bg-gray-50 transition-colors">
+                            <td class="px-6 py-4 text-sm font-medium text-gray-900">11-12月</td>
+                            <td class="px-6 py-4 text-sm text-gray-700">顶层定向+落地补位，锚定2026年发展方向</td>
+                            <td class="px-6 py-4 text-sm text-gray-600">
+                                <ul class="list-disc list-inside space-y-1">
+                                    <li>顶层设计：深化"人工智能+"、算电协同规划、扩大绿电应用、光热发电规模化（2030年1500万千瓦目标）</li>
+                                    <li>行业支持：数据中心纳入REITs申报、培育数据行业产教联合体与相关专业</li>
+                                    <li>地方落地：粤冀蒙明确算力规模/绿色算力目标；蒙宁细化绿电直连规则，晋宁出台能耗&碳排审查分级办法</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 政策热词云 -->
+        <div class="mt-16">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">2025年核心政策热词</h2>
+            <div class="bg-white p-8 rounded-xl card-shadow">
+                <div class="flex flex-wrap justify-center gap-4">
+                    <span class="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium hover:bg-primary/20 transition-colors">#算电协同</span>
+                    <span class="bg-green-100 text-green-600 px-4 py-2 rounded-full text-sm font-medium hover:bg-green-200 transition-colors">#绿电直连</span>
+                    <span class="bg-purple-100 text-purple-600 px-4 py-2 rounded-full text-sm font-medium hover:bg-purple-200 transition-colors">#人工智能+</span>
+                    <span class="bg-orange-100 text-orange-500 px-4 py-2 rounded-full text-sm font-medium hover:bg-orange-200 transition-colors">#REITs</span>
+                    <span class="bg-red-100 text-red-500 px-4 py-2 rounded-full text-sm font-medium hover:bg-red-200 transition-colors">#碳排放</span>
+                    <span class="bg-blue-100 text-blue-500 px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-200 transition-colors">#新型电力系统</span>
+                    <span class="bg-yellow-100 text-yellow-600 px-4 py-2 rounded-full text-sm font-medium hover:bg-yellow-200 transition-colors">#算力规模</span>
+                    <span class="bg-indigo-100 text-indigo-500 px-4 py-2 rounded-full text-sm font-medium hover:bg-indigo-200 transition-colors">#能源转型</span>
+                    <span class="bg-pink-100 text-pink-500 px-4 py-2 rounded-full text-sm font-medium hover:bg-pink-200 transition-colors">#数据安全</span>
+                    <span class="bg-teal-100 text-teal-500 px-4 py-2 rounded-full text-sm font-medium hover:bg-teal-200 transition-colors">#节能审查</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="bg-gray-800 text-white py-12 px-6">
+        <div class="max-w-7xl mx-auto text-center">
+            <p class="text-gray-300">© 2025 算力及能源领域政策观察 | 数据来源：秦淮数据品牌市场部结合公开政策文件整理</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // 平滑滚动
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // 滚动动画
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        }, observerOptions);
+
+        // 观察所有卡片元素
+        document.querySelectorAll('.hover-lift').forEach(card => {
+            card.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-10');
+            observer.observe(card);
+        });
+    </script>
+</body>
+</html>
